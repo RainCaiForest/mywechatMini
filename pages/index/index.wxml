@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container" style="background-image:url('{{ bgUrl }}')">
+  <view class="wel">
+      <text class="wel">{{welcome}}</text>
+  </view>
+  <view class="userinfo">
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">RainCai</text>
+  </view>
+  <view class="time">{{date}}</view>
+  <view class="weather">
+    <text class="">{{weather.city}}</text>
+    <text class="">天气{{weather.weather}} {{weather.temperature}} ℃</text>
+  </view>
+  <view class="weather">
+    <text class="">湿度 {{weather.humidity}} %</text>
+  </view>
+  <view class="weather">
+    <text class="">{{weather.winddirection}}风 {{weather.windpower}}</text>
+  </view>
+
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
