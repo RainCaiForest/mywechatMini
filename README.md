@@ -4,3 +4,5 @@
 
 功能简单的小程序，详细介绍
 https://mp.weixin.qq.com/s/NgHhg2ROI7JvBNyQxBZ9Mg
+
+![小程序截图](./jietu/jt.jpg)
